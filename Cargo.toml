@@ -1,0 +1,11 @@
+[package]
+name = "taut-grammars"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tree-sitter = "0.20"
+tree-sitter-highlight = { version = "0.20", optional = true }
+
+[build-dependencies]
+cc = "1.0"
