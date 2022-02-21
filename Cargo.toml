@@ -3,6 +3,13 @@ name = "taut-grammars"
 version = "0.1.0"
 edition = "2021"
 
+description = "A collection of tree-sitter grammars."
+repository = "https://github.com/Txuritan/taut-grammars.git"
+
+license = "MIT"
+
+keywords = [ "tree-sitter" ]
+
 [dependencies]
 tree-sitter = "0.20"
 tree-sitter-highlight = { version = "0.20", optional = true }
